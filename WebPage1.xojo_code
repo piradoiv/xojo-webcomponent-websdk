@@ -32,7 +32,7 @@ Begin WebPage WebPage1
    Begin TextAreaWebComponent CustomTextArea
       ControlID       =   ""
       Enabled         =   True
-      Height          =   183
+      Height          =   205
       Index           =   -2147483648
       Indicator       =   0
       Left            =   20
@@ -46,6 +46,7 @@ Begin WebPage WebPage1
       LockVertical    =   False
       Scope           =   2
       TabIndex        =   0
+      Text            =   ""
       Tooltip         =   ""
       Top             =   20
       Visible         =   True

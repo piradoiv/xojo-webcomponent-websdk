@@ -4,12 +4,16 @@ const template = document.createElement('template');
 template.innerHTML = `
     <style>
         div {
-            padding: 5px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
         }
         textarea {
             resize: none;
             border: 1px solid gray;
             border-radius: 4px;
+            flex-grow: 1;
         }
         .normal {
             color:green;
@@ -20,7 +24,7 @@ template.innerHTML = `
     </style>
 
     <div>
-        <textarea id="txtArea" cols="20" rows="5"></textarea><br>
+        <textarea id="txtArea"></textarea>
         <span id="info" class="normal">0/0</span>
     </div>
 `;
